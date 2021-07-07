@@ -1,0 +1,22 @@
+# ignore All
+/*
+!.gitignore
+# exception .c .h .cydwr .cyprj
+!/UART_Example.cydsn
+/UART_Example.cydsn/*
+!/UART_Example.cydsn/*.c
+!/UART_Example.cydsn/*.h
+!/UART_Example.cydsn/*.cydwr
+!/UART_Example.cydsn/*.cyprj
+
+# exception .cysch
+!/UART_Example.cydsn/TopDesign
+/UART_Example.cydsn/TopDesign/*
+!/UART_Example.cydsn/TopDesign/*.cysch
+
+#exception .hex
+!/UART_Example.cydsn/CortexM0p
+/UART_Example.cydsn/CortexM0p/*
+!/UART_Example.cydsn/CortexM0p/ARM_GCC_541
+/UART_Example.cydsn/CortexM0p/ARM_GCC_541/Debug/*
+!/UART_Example.cydsn/CortexM0p/ARM_GCC_541/Debug/*.hex
